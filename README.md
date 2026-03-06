@@ -4,8 +4,5 @@
 - 自动解压并执行安装任务
 - 适用于Linux-x86设备
 
-- 命令①
-- ```(command -v curl >/dev/null && curl -skL || wget -q --no-check-certificate -O-) https://raw.githubusercontent.com/QsSama-W/update_ddns_go/main/update_ddns_go.sh | bash```
-
-- 命令②
-- ```bash -c "$(curl -skL https://raw.githubusercontent.com/QsSama-W/update_ddns_go/main/update_ddns_go.sh)"```
+- 命令
+- ```bash -c "$(curl -fsSL https://raw.githubusercontent.com/QsSama-W/update_ddns_go/main/update_ddns_go.sh)"```
